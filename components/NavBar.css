@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #222;
+    background: #7f7979;
     padding: 15px 30px;
     width: 90%;
 }
@@ -58,7 +58,7 @@
 }
 
 .app-container.dark .navbar {
-  background: #222;
+  background: #7f7979;
 }
 
 .nav-btn-small {
