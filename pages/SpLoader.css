@@ -1,0 +1,16 @@
+.sploader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sploader-container.is-loading {
+  height: 100vh;
+  background: transparent;
+}
+
+.loader-img {
+    width: 120px;
+    height: 100px;
+}

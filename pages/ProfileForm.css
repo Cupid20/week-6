@@ -1,0 +1,21 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.profile-container h2 {
+    font-size: 2rem;
+    border-bottom: 3px solid #222;
+    padding: 10px;
+}
+
+.profile-container.dark h2 {
+    border-bottom: 3px solid #f0f0f0;
+}
+
+.profile-container p {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+}
+
+html {
+    font-size: 62.50%;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+.app-container.dark {
+  background: #222;
+  color: #fff;
+}
+
+.app-main {
+  flex: 1;
+  max-width: 100%;
+  width: 100%;
+}
