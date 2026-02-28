@@ -93,7 +93,7 @@ h1 img {
     height: 2.8rem;
     width: 2.8rem;
     border-radius: 50%;
-    background-image: url(public/unchecked.png);
+    background-image: url("/unchecked.png");
     background-size: cover;
     background-position: center;
     top: 1.2rem;
@@ -210,7 +210,7 @@ h1 img {
     height: 2.8rem;
     width: 2.8rem;
     border-radius: 50%;
-    background-image: url(public/unchecked.png);
+    background-image: url("/unchecked.png");
     background-size: cover;
     background-position: center;
     top: 1.2rem;
@@ -237,7 +237,7 @@ h1 img {
 }
 
 .li-list li.checked::before {
-    background-image: url(src/assets/checked.png);
+    background-image: url("/checked.png");
 }
 
 .li-list li span {
@@ -315,7 +315,7 @@ h1 img {
 }
 
 .li-list li.checked::before {
-    background-image: url(src/assets/checked.png);
+    background-image: url("/checked.png");
 }
 
 .li-list li span {
