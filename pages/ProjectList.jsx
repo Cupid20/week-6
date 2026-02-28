@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import todoImg from "../src/assets/undraw_to-do-list_eoia.svg";
 import "./ProjectList.css";
 
 export function ProjectList() {
@@ -108,7 +109,7 @@ export function ProjectList() {
             To-Do List{" "}
             <img
               className="to-do-img"
-              src="src/assets//undraw_to-do-list_eoia.svg"
+              src={todoImg}
               alt="to-do images"
             />
           </h1>

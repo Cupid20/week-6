@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { LoginForm } from "./LoginForm";
+import loadingSvg from "../src/assets/Loading.svg";
 import "./SpLoader.css";
 
 export function SpLoader() {
@@ -24,7 +25,7 @@ export function SpLoader() {
       <div className={`sploader-container ${showing ? "is-loading" : ""}`}>
         <div className="sploader">
           {showing ? (
-            <img className="loader-img" src="../src/assets/Loading.svg" />
+            <img className="loader-img" src={loadingSvg} />
           ) : (
             <LoginForm />
           )}
