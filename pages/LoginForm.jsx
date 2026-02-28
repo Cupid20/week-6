@@ -18,7 +18,7 @@ export function LoginForm() {
   useEffect(() => {
     const loggedIn = localStorage.getItem("isLoggedIn");
     if (loggedIn === "true") {
-      navigete("/project");
+      navigete("/dashboard");
       return;
     }
 

@@ -41,7 +41,7 @@ export function ConfirmLogin() {
         setLoading(true);
         setTimeout(() => {
           setLoading(false);
-          navigate("/project");
+          navigate("/dashboard");
         }, 1500);
       } else {
         alert("Wrong username or password");

@@ -5,6 +5,7 @@ import { ProjectList } from "../pages/ProjectList";
 import NavBar from "../components/NavBar";
 import { ProfileForm } from "../pages/ProfileForm";
 import { ConfirmLogin } from "../pages/ConfirmLogin";
+import { Dashboard } from "../pages/Dashboard";
 import "./index.css";
 import { useEffect, useState } from "react";
 
@@ -25,9 +26,11 @@ export function App() {
         <Routes>
           <Route path="/" element={<SpLoader />} />
           <Route path="/login" element={<LoginForm />} />
+          <Route path="/confirm-login" element={<ConfirmLogin />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/project" element={<ProjectList />} />
           <Route path="/profile" element={<ProfileForm />} />
-          <Route path="/confirm-login" element={<ConfirmLogin />} />
+          
         </Routes>
       </main>
     </div>

@@ -48,6 +48,9 @@ const NavBar = ({ theme, setTheme }) => {
             </Link>
           </li>
           <li>
+            <Link to="/dashboard">Dashboard</Link>
+          </li>
+          <li>
             <button className="logout-btn" onClick={handleLogout}>
               Logout
             </button>
